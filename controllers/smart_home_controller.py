@@ -3,17 +3,22 @@ class SmartHomeController:
         self.devices = devices
         self.users = users
         self.rooms = rooms
-        self.logger= logger
+        self.logger = logger
 
     def add_device(self, device):
         self.devices.append(device)
         print(f"Device '{device.name}' added to the smart home system.")
 
+    def add_room(self, room):
+        self.rooms.append(room)
+        print(f"room '{room.name}' added to the smart home system.")
+
     def remove_device(self, device_id):
         for device in self.devices:
             if device.device_id == device_id:
                 self.devices.remove(device)
-                print(f"Device '{device.name}' removed from the smart home system.")
+                print(
+                    f"Device '{device.name}' removed from the smart home system.")
                 return
         print(f"No device found with ID '{device_id}'.")
 
@@ -39,6 +44,7 @@ class SmartHomeController:
                     else:
                         method()
                 else:
-                    print(f"Action '{action}' not supported for device '{device.name}'.")
+                    print(
+                        f"Action '{action}' not supported for device '{device.name}'.")
                 return
         print(f"No device found with ID '{device_id}'.")
