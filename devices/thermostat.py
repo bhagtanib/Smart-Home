@@ -4,9 +4,13 @@ class Thermostat(Device):
         super().__init__(device_id, name, logger=logger)
         self.current_temperature = current_temperature
         self.target_temperature = target_temperature
+        print("Targeted Temp: ", target_temperature)
     
     def set_temperature(self, temp):
-        self.target_temperature = temp['temp']
+        try:
+            self.target_temperature = temp['temp']
+        except:
+            self.target_temperature = temp
         if self.logger:
             self.logger.log_event(f"{self.name} target temperature set to {self.target_temperature}.")
         print(f"{self.name} target temperature set to {self.target_temperature}.")

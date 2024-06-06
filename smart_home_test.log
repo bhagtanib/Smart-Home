@@ -118,3 +118,48 @@ Device 'Bedroom Light' added to room Bedroom.
 Device 'Bedroom Thermostat' added to room Bedroom.
 Permission 'control_light' granted to user John.
 Permission 'control_thermostat' granted to user Alice.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Living Room Light is now ON.
+Bedroom Thermostat target temperature set to 22.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Task 'Turn off living room light at 10:00 PM' executed.
+Task 'Arm security system at 11:00 PM' executed.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Permission 'control_light' granted to user John.
+Permission 'control_thermostat' granted to user Alice.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Living Room Light is now ON.
+Bedroom Thermostat target temperature set to {'temp': 22}.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Task 'Turn off living room light at 10:00 PM' executed.
+Task 'Arm security system at 11:00 PM' executed.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Permission 'control_light' granted to user John.
+Permission 'control_thermostat' granted to user Alice.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Living Room Light is now ON.
+Bedroom Thermostat target temperature set to 22.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Task 'Turn off living room light at 10:00 PM' executed.
+Task 'Arm security system at 11:00 PM' executed.
+Device 'Living Room Light' added to room Living Room.
+Device 'Bedroom Light' added to room Bedroom.
+Device 'Bedroom Thermostat' added to room Bedroom.
+Permission 'control_light' granted to user John.
+Permission 'control_thermostat' granted to user Alice.
